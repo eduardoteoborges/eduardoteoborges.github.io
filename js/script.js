@@ -26,7 +26,7 @@ function validar() {
         return false;
     }
 
-    if (ano_nasc < 2009) {
+    if (ano_nasc.value == "< 2009") {
         alert("Você precisa ter pelo menos 15 anos para enviar o formulário.");
         return false;
     }
