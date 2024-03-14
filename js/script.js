@@ -1,11 +1,11 @@
 function validar() {
     let nome = document.getElementById("nome");
 
-    let email = document.querySelector("sobrenome");
+    let sobrenome = document.querySelector("sobrenome");
 
-    let email = document.querySelector("data_nasc");
+    let data_nasc = document.querySelector("data_nasc");
     
-    let profissao = document.querySelector("graduacao");
+    let graduacao = document.querySelector("graduacao");
 
 
     if (nome.value == "") {
