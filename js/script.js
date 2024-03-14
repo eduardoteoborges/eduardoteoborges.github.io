@@ -3,9 +3,17 @@ function validar() {
 
     let sobrenome = document.querySelector("sobrenome");
 
-    let data_nasc = document.querySelector("data_nasc");
+    let ano_nasc = document.querySelector("ano_nasc");
     
     let graduacao = document.querySelector("graduacao");
+
+    let matutino = document.querySelector("matutino");
+
+    let vespertino = document.querySelector("vespertino");
+
+    let noturno = document.querySelector("graduacao");
+
+
 
 
     if (nome.value == "") {
@@ -26,6 +34,21 @@ function validar() {
 
     if (graduacao.value == "") {
         alert("Erro: graduacao vazia!");
+        return false;
+    }
+
+    if (matutino.value == "") {
+        alert("Erro: não pode campo vazio!");
+        return false;
+    }
+
+    if (vespertino.value == "") {
+        alert("Erro: não pode campo vazio!");
+        return false;
+    }
+
+    if (noturno.value == "") {
+        alert("Erro: não pode campo vazio!");
         return false;
     }
 
