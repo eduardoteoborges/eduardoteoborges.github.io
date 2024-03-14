@@ -4,7 +4,7 @@ function validar() {
     let sobrenome = document.querySelector("sobrenome");
 
     let ano_nasc = document.querySelector("ano_nasc");
-    
+
     let graduacao = document.querySelector("graduacao");
 
     let matutino = document.querySelector("matutino");
@@ -26,8 +26,9 @@ function validar() {
         return false;
     }
 
-    if (data_nasc.value == "") {
-        alert("Erro: data vazia!");
+
+    if (idade < 15) {
+        alert("Você precisa ter pelo menos 15 anos para enviar o formulário.");
         return false;
     }
 
@@ -52,5 +53,5 @@ function validar() {
         return false;
     }
 
-    alert("Sucesso"); 
+    alert("Sucesso");
 }
