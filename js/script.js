@@ -25,7 +25,7 @@ function validar() {
         alert("Erro: sobrenome vazio!");
         return false;
     }
-
+    var ano_nasc = parseInt(ano_nasc.value);
     if (ano_nasc.value == "< 2009") {
         alert("Você precisa ter pelo menos 15 anos para enviar o formulário.");
         return false;
@@ -47,7 +47,7 @@ function validar() {
         return false;
     }
 
-    if (noturno.value == "") {
+    if (noturno. == "") {
         alert("Erro: não pode campo vazio!");
         return false;
     }
