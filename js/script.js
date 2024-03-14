@@ -1,7 +1,7 @@
 function validar() {
-    //let nome = document.getElementById("nome");
+    let nome = document.getElementById("nome");
 
-   // let sobrenome = document.querySelector("sobrenome");
+    let sobrenome = document.querySelector("sobrenome");
 
     let ano_nasc = document.querySelector("ano_nasc");
 
@@ -27,7 +27,7 @@ function validar() {
     }
 
     const ano_nasc = parseInt(ano_nasc.value)
-    
+
     if (ano_nasc < 2009) {
         alert("Você precisa ter pelo menos 15 anos para enviar o formulário.");
         return false;
