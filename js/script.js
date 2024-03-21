@@ -24,9 +24,8 @@ function validar() {
     if (sobrenome.value == "") {
         alert("Erro: sobrenome vazio!");
         return false;
-    }
-    var ano_nasc = parseInt(ano_nasc.value);
-    if (ano_nasc.value == "< 2009") {
+    }    
+    if (ano_nasc.value == "") {
         alert("Você precisa ter pelo menos 15 anos para enviar o formulário.");
         return false;
     }
